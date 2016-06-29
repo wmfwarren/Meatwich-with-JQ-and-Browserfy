@@ -1,9 +1,10 @@
 "use strict";
 
+const JSONHandler = require("./JSONHandler.js");
 const DOM = require("./DOMHandler.js");
 
 var meatwhichMaker = {
-	DOM
+	JSONHandler, DOM
 }
 
-module.export = meatwhichMaker;
+module.exports = meatwhichMaker;
