@@ -3,11 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Make a Meatwich!</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<div id="dropdowns">
+		<select class="itemPicker" name="meat" id="meat">
+			<option value="none">None</option>
+			<option value="beef">Beef</option>
+			<option value="pork">Pork</option>
+			<option value="buffalo">Buffalo</option>
+		</select>
+		<select class="itemPicker" name="meat" id="cheese">
+			<option value="none">None</option>
+			<option value="muhrican">Muhrican</option>
+			<option value="swiss">Swiss</option>
+			<option value="cheddar">Cheddar</option>
+		</select>
+		<select class="itemPicker" name="meat" id="bread">
+			<option value="none">None</option>
+			<option value="wheat">Wheat</option>
+			<option value="white">White</option>
+			<option value="rye">Rye</option>
+		</select>
+	</div>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="dist/bundle.js"></script>
 </body>
