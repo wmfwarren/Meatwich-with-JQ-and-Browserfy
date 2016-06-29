@@ -1,0 +1,16 @@
+{
+	"cheeses":{
+		"muhrican":{
+			"price": 0.50,
+			"cheese": "Muhrican"
+		},
+		"cheddar":{
+			"price": 0.25,
+			"cheese": "Cheddar"
+		},
+		"swiss":{
+			"price": 0.75,
+			"cheese": "Swiss"
+		}
+	}
+}

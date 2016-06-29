@@ -1,0 +1,16 @@
+{
+	"meats":{
+		"beef":{
+			"price": 4.00,
+			"meat": "Beef"
+		},
+		"pork":{
+			"price": 3.25,
+			"meat": "Pork"
+		},
+		"buffalo":{
+			"price": 5.75,
+			"meat": "Buffalo"
+		}
+	}
+}

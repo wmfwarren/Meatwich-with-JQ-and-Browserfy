@@ -1,10 +1,4 @@
-# Project Template One
-
-This is a template designed to by cloned for simple projects that require JQuery, and need tasks to be automated with Gulp.
-
-To clone this repository use the `git clone` command. It will create a new folder that you will want to rename to your project name. Then you can `cd` into the project. You do not need to run `git init`.
-
-If you cloned this project you will need to change the remote in git by:
+# Sandwich Maker w/ JQ, Broswerfy, AJAX, and promises
 ```
 git remote -v #checks for all remotes and lists them
 git remote rm origin #remove the origin

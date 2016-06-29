@@ -1,0 +1,16 @@
+{
+	"breads":{
+		"wheat":{
+			"price": 0.50,
+			"bread": "Wheat"
+		},
+		"white":{
+			"price": 0.25,
+			"bread": "White"
+		},
+		"rye":{
+			"price": 0.75,
+			"bread": "Rye"
+		}
+	}
+}
