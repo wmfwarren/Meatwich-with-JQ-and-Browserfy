@@ -28,7 +28,7 @@
 					return (getCheesesJSON(data));
 				}).then(function (data){
 					cheeses = data;
-					sandwichMaker(breads, getCheeses, getMeats);
+					sandwichMaker(breads, cheeses, meats);
 					return ;
 				})};
 		// })();
