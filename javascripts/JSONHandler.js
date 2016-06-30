@@ -1,6 +1,7 @@
 "use strict";
 
-	var sandwichMaker = require("./main.js");
+	// var sandwichMaker = require("./main.js");
+	var sandwichMaker = require("./DOMHandler.js");
 
 	/////***JSON Objects***\\\\\
 	var breads = null;
@@ -9,13 +10,13 @@
 	/////***JSON Getters***\\\\\
 	var getBreads = function() {
 		return breads;
-	}
+	};
 	var getMeats = function() {
 		return meats;
-	}
+	};
 	var getCheeses = function() {
 		return cheeses;
-	}
+	};
 	/////***Function Calls***\\\\\
 	var JSONLoadListener = function(){
 				getBreadsJSON()
@@ -27,7 +28,7 @@
 					return (getCheesesJSON(data));
 				}).then(function (data){
 					cheeses = data;
-					foodPicker(breads, getCheeses, getMeats);
+					sandwichMaker(breads, getCheeses, getMeats);
 					return ;
 				})};
 		// })();
